@@ -3,8 +3,9 @@
 File "F:\workspace\psh\src\test.py", line 2
 SyntaxError: Non-ASCII character '\xe4' in file F:\workspace\psh\src\test.py on line 2, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
 test.py 的内容：
-
-print "你好"  
+以python3为例子
+print （"你好"）  带换号。
+print("你好",end="") 
 如果要正常运行在 test.py 文件前面加编码注释，如：
 
 #!/usr/bin/python2.6  
